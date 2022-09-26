@@ -4,7 +4,7 @@ import './App.css';
 function Nav(){
     return(
         <nav>
-            <h1>NAV TITLE</h1>
+            <h1>Techsun Engineering</h1>
             <ul className="nav-links">
                 <li>Professional</li>
                 <li>Casual</li>
