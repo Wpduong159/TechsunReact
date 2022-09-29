@@ -7,6 +7,7 @@ import Casual from './pages/Casual';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
+import Home from "./pages/Home"
 import Footer from "./Footer";
 
 function App(){
@@ -20,19 +21,14 @@ function App(){
                     <Route path="/professional" element={<Professional/>} />
                     <Route path="/casual" element={<Casual/>} />
                     <Route path="/about" element={<About/>} />
-                    <Route path="/Services" element={<Services/>} />
-                    <Route path="/Contact Us" element={<ContactUs/>} />
-                </Routes> 
+                    <Route path="/services" element={<Services/>} />
+                    <Route path="/contactus" element={<ContactUs/>} />
+                </Routes>
+
                 <Footer />
             </div>
         </Router>
     );
 }
-
-const Home = () => (
-    <div>
-        <h1>Home Page</h1>
-    </div>
-)
 
 export default App;
