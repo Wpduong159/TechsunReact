@@ -18,3 +18,17 @@ nav {
     align-items: center;
     list-style: none;
 }
+
+.Footer-links{
+  position: sticky;
+  list-style: none;
+  position: Bottom Left;
+  height: "1px";
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background-color: rgb(47, 47, 67);
+  color: white
+  
+}
