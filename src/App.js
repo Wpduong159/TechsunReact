@@ -20,8 +20,8 @@ function App(){
                     <Route path="/professional" element={<Professional/>} />
                     <Route path="/casual" element={<Casual/>} />
                     <Route path="/about" element={<About/>} />
-                    <Route path="/Services" element={<Services/>} />
-                    <Route path="/Contact Us" element={<ContactUs/>} />
+                    <Route path="/services" element={<Services/>} />
+                    <Route path="/contactus" element={<ContactUs/>} />
                 </Routes> 
                 <Footer />
             </div>
