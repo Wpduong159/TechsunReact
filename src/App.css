@@ -12,6 +12,11 @@ nav {
     color: white
 }
 
+.headerLogo {
+    padding-right: 10px;
+    transform: scale(3.7);
+}
+
 .nav-links {
     width: 30%;
     display: flex;
