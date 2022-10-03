@@ -1,5 +1,7 @@
 import React from "react";
 import './App.css';
+import Grid from "@mui/material/Grid";
+import AlignVerticalTopIcon from '@mui/icons-material/AlignVerticalTop';
 import { Link } from 'react-router-dom';
 
 function Nav(){
@@ -9,9 +11,11 @@ function Nav(){
         textDecoration: 'none'
     }
 
+
     return(
         <nav>
             <Link style={navStyle} to='/'>
+                <AlignVerticalTopIcon />
                 <h1>Techsun Engineering</h1>
             </Link>
             <ul className="nav-links">
@@ -20,9 +24,6 @@ function Nav(){
                 </Link>
                 <Link style={navStyle} to='/casual'>
                     <li>Casual</li>
-                </Link>
-                <Link style={navStyle} to='/about'>
-                    <li>About Us</li>
                 </Link>
             </ul>
         </nav>

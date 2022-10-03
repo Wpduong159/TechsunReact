@@ -1,5 +1,6 @@
 .App {
     text-align: center;
+    font-family: 'Roboto Mono', monospace;
 }
 
 nav {
@@ -19,7 +20,7 @@ nav {
     list-style: none;
 }
 
-.Footer-links{
+.footer-links{
     position: sticky;
     list-style: none;
     position: Bottom Left;
