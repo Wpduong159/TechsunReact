@@ -46,6 +46,9 @@ function Footer(){
                             <Link style={footerStyle} to= "/contactus">
                                 <li>Contact Us</li>
                             </Link>
+                            <link style={footerStyle} to= "/workforus">
+                                <li>Work For Us</li>
+                            </link>
                         </ul>
                     </Typography>
                 </Container>
