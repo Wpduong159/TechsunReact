@@ -1,6 +1,5 @@
 import React from "react";
 import './App.css';
-import Grid from "@mui/material/Grid";
 import AlignVerticalTopIcon from '@mui/icons-material/AlignVerticalTop';
 import { Link } from 'react-router-dom';
 
@@ -10,7 +9,6 @@ function Nav(){
         color: 'white',
         textDecoration: 'none'
     }
-
 
     return(
         <nav>
