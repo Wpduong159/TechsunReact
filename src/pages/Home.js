@@ -1,10 +1,12 @@
 import React from "react";
 import '../App.css';
+import city from '../images/chicago-night.gif';
+
 
 function Home(){
     return(
         <div>
-            <h1>Home Page</h1>
+            <img className="cityBackground" src={city} alt="City background" />
         </div>
     );
 }
