@@ -7,9 +7,10 @@ import Casual from './pages/Casual';
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
-import Home from "./pages/Home";
+import Home from "./pages/Home"
 import Footer from "./Footer";
 import WorkForUs from "./pages/WorkForUs";
+
 function App(){
     return(
         <Router>
