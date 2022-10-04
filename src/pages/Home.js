@@ -10,8 +10,7 @@ function Home(){
             <section className="initial">
                 <img className="cityBackground" src={City} alt="City background" />
                 <div className="welcome">
-                    <h1>Welcome</h1>
-                    <h2>Let's pick today's look</h2>
+                    <h1>Welcome. Let's pick today's look.</h1>
                 </div>
             </section>
             <section className="chooseStyle">
