@@ -1,3 +1,5 @@
+/* Global App Design */
+
 .App {
     text-align: center;
     font-family: 'Roboto Mono', monospace;
@@ -33,7 +35,7 @@ nav {
 
 .headerLogo {
     padding-right: 10px;
-    transform: scale(3.7);
+    transform: scale(3.5);
 }
 
 .nav-links {
@@ -42,6 +44,12 @@ nav {
     justify-content: space-around;
     align-items: center;
     list-style: none;
+}
+
+@media screen and (max-width: 770px) {
+    .nav-links {
+        display: none;
+    }
 }
 
 .footer-links{
@@ -56,8 +64,81 @@ nav {
     color: white
 }
 
+/* Home Screen Design */
+
 .cityBackground {
     filter: brightness(50%);
     width: 100%;
+    object-fit: cover;
+    flex-grow: 1;
+    height: 90vh;
 }
 
+.welcome {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.prompt {
+    color: black;
+}
+
+@media(max-width: 700px) {
+    .promptRow {
+        flex-direction: column;
+    }
+}
+
+.chooseStyle {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.promptColumn{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.promptColumn img {
+    width: 50%;
+    display: block;
+}
+
+.promptLayer {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.promptLayer:hover {
+    background: rgba(47, 47, 67, .7);
+}
+
+.promptLayer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.promptLayer:hover h3 {
+    bottom: 49%;
+    opacity: 1;
+}
