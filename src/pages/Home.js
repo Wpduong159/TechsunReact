@@ -15,17 +15,19 @@ function Home(){
             </section>
             <section className="chooseStyle">
                 <h1 className="prompt">Please choose a style</h1>
-                <div className="promptRow">
-                    <div className="promptColumn">
-                        <img className="profSample" src={ProfSample} alt="Professional Sample" />
-                        <div className="promptLayer">
-                            <h3>Business Professional</h3>
+                <div style={{display: 'flex', justifyContent: 'space-evenly',flexDirection: 'row', width: '100%'}}>
+                    <div className="promptRow" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center'}}>
+                        <div className="promptColumn">
+                            <img className="profSample" src={ProfSample} alt="Professional Sample" />
+                            <div className="promptLayer">
+                                <h3>Business Professional</h3>
+                            </div>
                         </div>
-                    </div>
-                    <div className="promptColumn">
-                        <img className="casSample" src={CasSample} alt="Casual Sample" />
-                        <div className="promptLayer">
-                            <h3>Business Casual</h3>
+                        <div className="promptColumn">
+                            <img className="casSample" src={CasSample} alt="Casual Sample" />
+                            <div className="promptLayer">
+                                <h3>Business Casual</h3>
+                            </div>
                         </div>
                     </div>
                 </div>

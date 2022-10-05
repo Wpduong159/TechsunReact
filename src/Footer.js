@@ -33,7 +33,7 @@ function Footer(){
             sx={{
             display: 'flex',
             flexDirection: 'column',
-            minHeight: '100vh',
+            minHeight: '20vh',
             }}
         >
             <CssBaseline />
