@@ -1,10 +1,15 @@
 import React from "react";
 import '../App.css';
+import {Skyward} from '../images/imageIndex';
 
 function ContactUs(){
     return(
         <div>
-            <h1>Contact Us</h1>
+
+            <img className = "skyward" src={Skyward} alt = "Skyline background" />
+            <div className="contactTitle">
+                <h1>Contact Us</h1>
+            </div>
         </div>
     );
 }
