@@ -1,9 +1,11 @@
-import React from "react";
+import React, {Component} from "react";
 import '../App.css';
+import image from "../images/purepng.png";
+
 
 function WorkForUs(){
     return(
-        <div>
+        <div style={{ backgroundImage:image}}>
             <h1>Work For Us</h1>
         </div>
     );
