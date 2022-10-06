@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import './App.css';
 import Nav from './Nav';
 import About from './pages/About';
@@ -9,6 +9,7 @@ import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home"
 import Footer from "./Footer";
+import WorkForUs from "./pages/WorkForUs";
 
 function App(){
     return(
@@ -23,6 +24,7 @@ function App(){
                     <Route path="/about" element={<About/>} />
                     <Route path="/services" element={<Services/>} />
                     <Route path="/contactus" element={<ContactUs/>} />
+                    <Route path="/workforus" element={<WorkForUs/>} />
                 </Routes>
 
                 <Footer />
