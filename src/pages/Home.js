@@ -5,7 +5,6 @@ import Box from '@mui/material/Box';
 import { City, ProfSample, CasSample } from '../images/imageIndex';
 
 function Prof() {
-
     return (
         <div className="promptColumn">
             <img className="imgSample" src={ProfSample} alt="Professional Sample" />
@@ -17,7 +16,6 @@ function Prof() {
 }
 
 function Cas() {
-
     return (
         <div className="promptColumn">
             <img className="imgSample" src={CasSample} alt="Casual Sample" />
