@@ -85,9 +85,11 @@ nav {
 
 .prompt {
     color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
-.promptRow {
+/* .promptRow {
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
@@ -98,13 +100,20 @@ nav {
         flex-direction: column;
         align-items: center;
     }
-}
+} */
 
 .chooseStyle {
+    height: 85vh;
     width: 100%;
     margin: auto;
     text-align: center;
-    padding-top: 20px;
+}
+
+.imgSample {
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    object-fit: cover;
 }
 
 .promptColumn{
@@ -112,14 +121,6 @@ nav {
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
-}
-
-.promptColumn img {
-    width: 400px;
-    height: 400px;
-    border-radius: 20px;
-    object-fit: cover;
-    display: block;
 }
 
 .promptLayer {
