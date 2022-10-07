@@ -4,6 +4,12 @@ import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
 import { City, ProfSample, CasSample } from '../images/imageIndex';
 
+const autoResize = {
+    root: {
+        flexGrow: 1
+    }
+};
+
 function Prof() {
     return (
         <div className="promptColumn">
@@ -54,18 +60,16 @@ function Home(){
                     </div>
                 </div>
             </section> */}
-            <section className="chooseStyle">
+            <section className="chooseStyle" style={autoResize.root}>
                 <h1 className="prompt">Please choose a style:</h1>
-                <Box sx={{ flexGrow: 1 }}>
-                    <Grid container spacing={{ xs: 2, md: 3 }} columns={{ xs: 4, sm: 8, md: 12 }} justifyContent="center">
-                        <Grid item xs={8} sm={4} md={4}>
-                            <Prof />
-                        </Grid>
-                        <Grid item xs={4} sm={4} md={4}>
-                            <Cas />
-                        </Grid>
+                <Grid container spacing={2}>
+                    <Grid item xs>
+                        <Prof />
                     </Grid>
-                </Box>
+                    <Grid item xs>
+                        <Cas />
+                    </Grid>
+                </Grid>
             </section>
 
         </div>
