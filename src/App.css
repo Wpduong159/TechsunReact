@@ -190,3 +190,19 @@ nav {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
+.clothing{
+    width: 100%;
+    object-fit: cover;
+    flex-grow: 1;
+    height: 90vh;
+}
+
+.aboutUs{
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
