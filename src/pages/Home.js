@@ -12,31 +12,31 @@ const autoResize = {
 
 function Prof() {
     return (
-        <Link to='/professional'>
-            <div className="promptColumn">
+        <div className="promptColumn">
+            <Link to='/professional'>
                 <img className="imgSample" src={ProfSample} alt="Professional Sample" />
                 <div className="promptLayer">
                     <div className="promptText">
                         <h3>Business Professional</h3>
                     </div>
                 </div>
-            </div>
-        </Link>
+            </Link>
+        </div>
     );
 }
 
 function Cas() {
     return (
-        <Link to='/casual'>
-            <div className="promptColumn">
+        <div className="promptColumn">
+            <Link to='/casual'>
                 <img className="imgSample" src={CasSample} alt="Casual Sample" />
                 <div className="promptLayer">
                     <div className="promptText">
                         <h3>Business Professional</h3>
                     </div>
                 </div>
-            </div>
-        </Link>
+            </Link>
+        </div>
     );
 }
 
