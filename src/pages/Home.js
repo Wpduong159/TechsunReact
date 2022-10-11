@@ -32,7 +32,7 @@ function Cas() {
                 <img className="imgSample" src={CasSample} alt="Casual Sample" />
                 <div className="promptLayer">
                     <div className="promptText">
-                        <h3>Business Professional</h3>
+                        <h3>Business Casual</h3>
                     </div>
                 </div>
             </Link>
