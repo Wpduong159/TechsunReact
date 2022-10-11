@@ -2,6 +2,7 @@ import React from "react";
 import './App.css';
 import CssBaseline from '@mui/material/CssBaseline';
 import Nav from './Nav';
+import ScrollToTop from './ScrollToTop';
 import About from './pages/About';
 import Professional from './pages/Professional';
 import Casual from './pages/Casual';
@@ -19,16 +20,20 @@ function App(){
                 <CssBaseline />
 
                 <Nav />
-                
-                <Routes>
-                    <Route path="/" element={<Home/>} />
-                    <Route path="/professional" element={<Professional/>} />
-                    <Route path="/casual" element={<Casual/>} />
-                    <Route path="/about" element={<About/>} />
-                    <Route path="/services" element={<Services/>} />
-                    <Route path="/contactus" element={<ContactUs/>} />
-                    <Route path="/workforus" element={<WorkForUs/>} />
-                </Routes>
+
+                <ScrollToTop>
+
+                    <Routes>
+                        <Route path="/" element={<Home/>} />
+                        <Route path="/professional" element={<Professional/>} />
+                        <Route path="/casual" element={<Casual/>} />
+                        <Route path="/about" element={<About/>} />
+                        <Route path="/services" element={<Services/>} />
+                        <Route path="/contactus" element={<ContactUs/>} />
+                        <Route path="/workforus" element={<WorkForUs/>} />
+                    </Routes>
+
+                </ScrollToTop>
 
                 <Footer />
             </div>

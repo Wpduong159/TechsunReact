@@ -1,6 +1,7 @@
 import React from "react";
 import '../App.css';
 import Grid from '@mui/material/Grid';
+import { Link } from 'react-router-dom';
 import { City, ProfSample, CasSample } from '../images/imageIndex';
 
 const autoResize = {
@@ -11,27 +12,31 @@ const autoResize = {
 
 function Prof() {
     return (
-        <div className="promptColumn">
-            <img className="imgSample" src={ProfSample} alt="Professional Sample" />
-            <div className="promptLayer">
-                <div className="promptText">
-                    <h3>Business Professional</h3>
+        <Link to='/professional'>
+            <div className="promptColumn">
+                <img className="imgSample" src={ProfSample} alt="Professional Sample" />
+                <div className="promptLayer">
+                    <div className="promptText">
+                        <h3>Business Professional</h3>
+                    </div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 }
 
 function Cas() {
     return (
-        <div className="promptColumn">
-            <img className="imgSample" src={CasSample} alt="Casual Sample" />
-            <div className="promptLayer">
-                <div className="promptText">
-                    <h3>Business Professional</h3>
+        <Link to='/casual'>
+            <div className="promptColumn">
+                <img className="imgSample" src={CasSample} alt="Casual Sample" />
+                <div className="promptLayer">
+                    <div className="promptText">
+                        <h3>Business Professional</h3>
+                    </div>
                 </div>
             </div>
-        </div>
+        </Link>
     );
 }
 
