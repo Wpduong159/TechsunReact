@@ -1,5 +1,6 @@
-import React, {Component} from "react";
+import React from "react";
 import './App.css';
+import CssBaseline from '@mui/material/CssBaseline';
 import Nav from './Nav';
 import About from './pages/About';
 import Professional from './pages/Professional';
@@ -15,6 +16,8 @@ function App(){
     return(
         <Router>
             <div className="App">
+                <CssBaseline />
+
                 <Nav />
                 
                 <Routes>

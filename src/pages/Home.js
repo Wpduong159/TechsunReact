@@ -1,7 +1,6 @@
 import React from "react";
 import '../App.css';
 import Grid from '@mui/material/Grid';
-import Box from '@mui/material/Box';
 import { City, ProfSample, CasSample } from '../images/imageIndex';
 
 const autoResize = {
@@ -15,7 +14,9 @@ function Prof() {
         <div className="promptColumn">
             <img className="imgSample" src={ProfSample} alt="Professional Sample" />
             <div className="promptLayer">
-                <h3>Business Professional</h3>
+                <div className="promptText">
+                    <h3>Business Professional</h3>
+                </div>
             </div>
         </div>
     );
@@ -26,7 +27,9 @@ function Cas() {
         <div className="promptColumn">
             <img className="imgSample" src={CasSample} alt="Casual Sample" />
             <div className="promptLayer">
-                <h3>Business Casual</h3>
+                <div className="promptText">
+                    <h3>Business Professional</h3>
+                </div>
             </div>
         </div>
     );
@@ -41,25 +44,6 @@ function Home(){
                     <h1>Welcome. Let's pick today's look.</h1>
                 </div>
             </section>
-            {/* <section className="chooseStyle">
-                <h1 className="prompt">Please choose a style</h1>
-                <div style={{display: 'flex', justifyContent: 'space-evenly',flexDirection: 'row', width: '100%'}}>
-                    <div className="promptRow" style={{display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center'}}>
-                        <div className="promptColumn">
-                            <img className="profSample" src={ProfSample} alt="Professional Sample" />
-                            <div className="promptLayer">
-                                <h3>Business Professional</h3>
-                            </div>
-                        </div>
-                        <div className="promptColumn">
-                            <img className="casSample" src={CasSample} alt="Casual Sample" />
-                            <div className="promptLayer">
-                                <h3>Business Casual</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section> */}
             <section className="chooseStyle" style={autoResize.root}>
                 <h1 className="prompt">Please choose a style:</h1>
                 <Grid container spacing={2}>
