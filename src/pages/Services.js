@@ -7,7 +7,7 @@ function Services(){
         <div>
             <img className = "office" src={Office} alt = "Office backgroud" />
             <div className="servicesTitle">
-                <h1>Services Page</h1>
+                 <h1>Services Page</h1>
             </div>
         </div>
     );
