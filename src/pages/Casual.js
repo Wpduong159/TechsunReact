@@ -3,7 +3,7 @@ import '../App.css';
 
 function Casual(){
     return(
-        <div>
+        <div className="casualBody">
             <h1>Casual Page</h1>
             
         </div>
