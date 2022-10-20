@@ -222,4 +222,13 @@ nav {
     transform: translate(-50%,-50%);
 }
 
+.aboutUsDescription{
+    min-height: 3vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+
 /* Images for place holders */
