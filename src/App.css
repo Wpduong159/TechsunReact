@@ -166,7 +166,7 @@ nav {
     width: 100%;
     object-fit: cover;
     flex-grow: 1;
-    height: 90vh;
+    height: 80vh;
 }
 
 .contactTitle{
@@ -180,11 +180,14 @@ nav {
 }
 
 .emailSection{
-    min-height: 87vh;
+    min-height: 3vh;
     width: 100%;
     margin: auto;
     text-align: center;
+    align-items: center;
 }
+
+
 /*Services page */
 .office{
     filter: brightness(75%);

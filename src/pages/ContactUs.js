@@ -1,6 +1,9 @@
 import React from "react";
 import '../App.css';
 import {Skyward} from '../images/imageIndex';
+import Grid from '@mui/material/Grid'; // Grid version 1
+import Item from '@mui/material/ListItem';
+
 
 function ContactUs(){
     return(
@@ -9,13 +12,21 @@ function ContactUs(){
                 <img className = "skyward" src={Skyward} alt = "Skyline background" />
                 <div className="contactTitle">
                     <h1>Contact Us</h1>
+                    <h2>Below</h2>
                 </div>
             </section>
             <section className="emailSection">
-                <h2> Business Inquiries: engineering.techsun@gmail.com</h2>
-                <h3>wpduong@csu.fullerton.edu <br></br>
-                    sreyes92@csu.fullerton.edu
-                </h3>
+                <Grid container direction="row" justifyContent='center' alignItems='center'>
+                    <Grid item md>
+                        <Item>Business Inquiries: engineering.techsun@gmail.com </Item>
+                    </Grid>
+                    <Grid item md>
+                        <Item>Senor Software Developer: wdoung@csu.fullerton.edu</Item>
+                    </Grid>
+                    <Grid item md>
+                        <Item>Junior Software Developer: sreyes92@csu.fullerton.edu</Item>
+                    </Grid>
+                </Grid>                                
 
             </section>
         </div>

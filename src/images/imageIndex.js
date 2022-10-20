@@ -6,3 +6,4 @@ export const Office = require('./office.jpg');
 export const Clothing = require('./clothing.jpg');
 export const Tanjiro = require('./tanjiro.jpg');
 export const Whatif = require('./whatif.jpg');
+export const Techsun = require('./techsun.png');
