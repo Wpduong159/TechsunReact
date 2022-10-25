@@ -1,5 +1,5 @@
 import React from "react";
-import './App.css';
+import '../App.css';
 import AlignVerticalTopIcon from '@mui/icons-material/AlignVerticalTop';
 import { Link } from 'react-router-dom';
 import Grid from '@mui/material/Grid';
