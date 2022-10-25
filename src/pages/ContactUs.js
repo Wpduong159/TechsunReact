@@ -1,6 +1,7 @@
 import React from "react";
 import '../App.css';
 import {Skyward} from '../images/imageIndex';
+import {Skyward, Techsun} from '../images/imageIndex';
 import Grid from '@mui/material/Grid'; // Grid version 1
 import Item from '@mui/material/ListItem';
 
