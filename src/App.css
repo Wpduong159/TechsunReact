@@ -96,7 +96,7 @@ nav {
 }
 
 .chooseStyle {
-    min-height: 80vh;
+    min-height: 84vh;
     width: 100%;
     margin: auto;
     text-align: center;
@@ -136,11 +136,8 @@ nav {
 
 .promptText {
     position: absolute;
-    /* top: 0; */
     bottom: 43%;
     width: 100%;
-
-    /* right: 0; */
 }
 
 .promptLayer:hover{
@@ -187,8 +184,8 @@ nav {
     align-items: center;
 }
 
-
 /*Services page */
+
 .office{
     filter: brightness(75%);
     width: 100%;
@@ -205,7 +202,9 @@ nav {
     left: 50%;
     transform: translate(-50%,-50%);
 }
+
  /* About us page*/
+
 .clothing{
     width: 100%;
     object-fit: cover;

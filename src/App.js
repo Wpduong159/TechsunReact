@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import CssBaseline from '@mui/material/CssBaseline';
-import Nav from './Nav';
+import Nav from './components/Nav';
 import ScrollToTop from './ScrollToTop';
 import About from './pages/About';
 import Professional from './pages/Professional';
@@ -10,7 +10,7 @@ import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import Home from "./pages/Home"
-import Footer from "./Footer";
+import Footer from "./components/Footer";
 import WorkForUs from "./pages/WorkForUs";
 
 function App(){
