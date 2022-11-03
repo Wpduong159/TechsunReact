@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css';
-import {Skyward, Techsun} from '../images/imageIndex';
+import {Skyward} from '../images/imageIndex';
 import Grid from '@mui/material/Grid'; // Grid version 1
 import Item from '@mui/material/ListItem';
 
@@ -17,13 +17,13 @@ function ContactUs(){
             </section>
             <section className="emailSection">
                 <Grid container direction="row" justifyContent='center' alignItems='center'>
-                    <Grid item md>
-                        <Item>Business Inquiries engineering.techsun@gmail.com</Item>
+                    <Grid item md className="supportGridItems">
+                        <Item >Business Inquiries engineering.techsun@gmail.com</Item>
                     </Grid>
-                    <Grid item md>
+                    <Grid item md className="supportGridItems">
                         <Item>Senior Software Developer: wpduong@csu.fullerton.edu</Item>
                     </Grid>
-                    <Grid item md>
+                    <Grid item md className="supportGridItems">
                         <Item>Junior Software Developer: sreyes92@csu.fullerton.edu</Item>
                     </Grid> 
                 </Grid>                                
