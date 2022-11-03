@@ -203,6 +203,20 @@ nav {
     transform: translate(-50%,-50%);
 }
 
+.servicesSection{
+     min-height: 3vh;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+}
+
+.supportGridItems{
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    align-items: center;
+}
  /* About us page*/
 
 .clothing{
@@ -230,4 +244,4 @@ nav {
 }
 
 
-/* Images for place holders */
+/* */
