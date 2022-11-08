@@ -1,26 +1,25 @@
 import React from "react";
 import Carousel from 'react-material-ui-carousel'
+import casualData from '../jsons/casual.json'
 import '../App.css';
 
 function Casual(){
-    var items = [
-        {
-            name: "Random Name #1",
-            description: "Probably the most random thing you have ever seen!"
-        },
-        {
-            name: "Random Name #2",
-            description: "Hello World!"
-        }
-    ]
+    let hats = casualData.Hats
+
 
     return(
         <div className="casualBody">
             <h1>Casual Page</h1>
 
-            <Carousel>
+            <Carousel
+                indicators="false"
+                navButtonsAlwaysVisible="true"
+                cycleNavigation="true"
+                autoPlay="true"
+                animation="slide"
+                >
             {
-                items.map( (item, i) => <Item key={i} item={item} /> )
+                hats.map((hat, i) => <Item key={i} item={hat} /> )
             }
             </Carousel>
             
@@ -30,14 +29,11 @@ function Casual(){
 
 function Item(props)
 {
+    console.log(props.item)
     return (
         <div>
-            <h2>{props.item.name}</h2>
-            <p>{props.item.description}</p>
-
-            <h2 className="CheckButton">
-                Check it out!
-            </h2>
+            <img src={props.item}/>
+            
         </div>
     )
 }
