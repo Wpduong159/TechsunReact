@@ -5,6 +5,7 @@ import '../App.css';
 
 function Casual(){
     let hats = casualData.Hats
+    let outerwears = casualData.Outerwear
 
 
     return(
@@ -19,7 +20,18 @@ function Casual(){
                 animation="slide"
                 >
             {
-                hats.map((hat, i) => <Item key={i} item={hat} /> )
+                hats.map((item, i) => <Item key={i} item={item} /> )
+            }
+            </Carousel>
+            <Carousel
+                indicators="false"
+                navButtonsAlwaysVisible="true"
+                cycleNavigation="true"
+                autoPlay="true"
+                animation="slide"
+                >
+            {
+                outerwears.map((item, i) => <Item key={i} item={item} /> )
             }
             </Carousel>
             
@@ -29,11 +41,9 @@ function Casual(){
 
 function Item(props)
 {
-    console.log(props.item)
     return (
         <div>
-            <img src={props.item}/>
-            
+            <img className="clothes" src={Object.values(props.item)}/>
         </div>
     )
 }
