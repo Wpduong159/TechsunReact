@@ -243,8 +243,14 @@ nav {
     align-items: center;
 }
 
-/*Clothing images*/
+/*Casual Clothing Page*/
 
-.clothes {
+.casualCarousel {
+    margin: auto;
+    width: 50%;
+}
+
+.casualClothes {
     border-radius: 20px;
+    height: 380px
 }

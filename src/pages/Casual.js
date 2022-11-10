@@ -4,37 +4,65 @@ import casualData from '../jsons/casual.json'
 import '../App.css';
 
 function Casual(){
-    let hats = casualData.Hats
-    let outerwears = casualData.Outerwear
-
-
     return(
         <div className="casualBody">
             <h1>Casual Page</h1>
 
             <Carousel
-                indicators="false"
-                navButtonsAlwaysVisible="true"
+                className="casualCarousel"
+                indicators={false}
                 cycleNavigation="true"
-                autoPlay="true"
+                autoPlay={false}
                 animation="slide"
                 >
             {
-                hats.map((item, i) => <Item key={i} item={item} /> )
+                casualData.Hats.map((item, i) => <Item key={i} item={item} /> )
             }
             </Carousel>
             <Carousel
-                indicators="false"
-                navButtonsAlwaysVisible="true"
+                className="casualCarousel"
+                indicators={false}
                 cycleNavigation="true"
-                autoPlay="true"
+                autoPlay={false}
                 animation="slide"
                 >
             {
-                outerwears.map((item, i) => <Item key={i} item={item} /> )
+                casualData.Outerwear.map((item, i) => <Item key={i} item={item} /> )
             }
             </Carousel>
-            
+            <Carousel
+                className="casualCarousel"
+                indicators={false}
+                cycleNavigation="true"
+                autoPlay={false}
+                animation="slide"
+                >
+            {
+                casualData.Shirts.map((item, i) => <Item key={i} item={item} /> )
+            }
+            </Carousel>
+            <Carousel
+                className="casualCarousel"
+                indicators={false}
+                cycleNavigation="true"
+                autoPlay={false}
+                animation="slide"
+                >
+            {
+                casualData.Pants.map((item, i) => <Item key={i} item={item} /> )
+            }
+            </Carousel>
+            <Carousel
+                className="casualCarousel"
+                indicators={false}
+                cycleNavigation="true"
+                autoPlay={false}
+                animation="slide"
+                >
+            {
+                casualData.Shoes.map((item, i) => <Item key={i} item={item} /> )
+            }
+            </Carousel>
         </div>
     );
 }
@@ -43,7 +71,7 @@ function Item(props)
 {
     return (
         <div>
-            <img className="clothes" src={Object.values(props.item)}/>
+            <img className="casualClothes" src={Object.values(props.item)} loading="eager" title={Object.keys(props.item)} alt={Object.keys(props.item)}/>
         </div>
     )
 }
