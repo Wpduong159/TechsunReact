@@ -2,6 +2,8 @@ import React from "react";
 import '../App.css';
 import Carousel from "react-material-ui-carousel";
 import professionalData from '../jsons/professional.json'
+import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import Grid from '@mui/material/Grid';
 
 
@@ -9,30 +11,94 @@ function Professional(){
     return(
         <div className="professionalBody">
             <h1>Professional Page</h1>
-            {/* <Grid container spacing={1}>
-                <Grid item xs={6} md={6}> */}
-                    <Carousel
-                        className="professionalCarousel"
-                        indicators={false}
-                        cycleNavigation="true"
-                        autoPlay={false}
-                        animation="slide"
-                    >
-                    {
-                        professionalData.Outerwear.map((item, i)=> <Item key={i} item ={item}/>)
+            <Carousel
+                className="carousel"
+                indicators={false}
+                cycleNavigation="true"
+                autoPlay={false}
+                animation="slide"
+                navButtonsAlwaysVisible={true}
+                fullHeightHover={false}
+                navButtonsProps={{
+                    style: {
+                        backgroundColor: 'transparent',
+                        color: 'black',
+                        borderRadius: 0
                     }
-                    </Carousel>
-                {/* </Grid>
-                <Grid item xs={6} md={6}>
-                    <Item>xs=6 md=4</Item>
-                </Grid>
-                <Grid item xs={6} md={6}>
-                    <Item>xs=6 md=4</Item>
-                </Grid>
-                <Grid item xs={6} md={6}>
-                    <Item>xs=6 md=8</Item>
-                </Grid>
-            </Grid> */}
+                }} 
+                PrevIcon={<ArrowBackIosIcon/>}
+                NextIcon={<ArrowForwardIosIcon/>}
+                >
+            {
+                professionalData.Outerwear.map((item, i) => <Item key={i} item={item} /> )
+            }
+            </Carousel>
+            <Carousel
+                className="carousel"
+                indicators={false}
+                cycleNavigation="true"
+                autoPlay={false}
+                animation="slide"
+                navButtonsAlwaysVisible={true}
+                fullHeightHover={false}
+                navButtonsProps={{
+                    style: {
+                        backgroundColor: 'transparent',
+                        color: 'black',
+                        borderRadius: 0
+                    }
+                }} 
+                PrevIcon={<ArrowBackIosIcon/>}
+                NextIcon={<ArrowForwardIosIcon/>}
+                >
+            {
+                professionalData.Shirts.map((item, i) => <Item key={i} item={item} /> )
+            }
+            </Carousel>
+            <Carousel
+                className="carousel"
+                indicators={false}
+                cycleNavigation="true"
+                autoPlay={false}
+                animation="slide"
+                navButtonsAlwaysVisible={true}
+                fullHeightHover={false}
+                navButtonsProps={{
+                    style: {
+                        backgroundColor: 'transparent',
+                        color: 'black',
+                        borderRadius: 0
+                    }
+                }} 
+                PrevIcon={<ArrowBackIosIcon/>}
+                NextIcon={<ArrowForwardIosIcon/>}
+                >
+            {
+                professionalData.Pants.map((item, i) => <Item key={i} item={item} /> )
+            }
+            </Carousel>
+            <Carousel
+                className="carousel"
+                indicators={false}
+                cycleNavigation="true"
+                autoPlay={false}
+                animation="slide"
+                navButtonsAlwaysVisible={true}
+                fullHeightHover={false}
+                navButtonsProps={{
+                    style: {
+                        backgroundColor: 'transparent',
+                        color: 'black',
+                        borderRadius: 0
+                    }
+                }} 
+                PrevIcon={<ArrowBackIosIcon/>}
+                NextIcon={<ArrowForwardIosIcon/>}
+                >
+            {
+                professionalData.Shoes.map((item, i) => <Item key={i} item={item} /> )
+            }
+            </Carousel>
         </div>
     );
 }

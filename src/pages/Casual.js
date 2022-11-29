@@ -11,7 +11,7 @@ function Casual(){
             <h1>Let's style your casual look:</h1>
 
             <Carousel
-                className="casualCarousel"
+                className="carousel"
                 indicators={false}
                 cycleNavigation="true"
                 autoPlay={false}
@@ -33,7 +33,7 @@ function Casual(){
             }
             </Carousel>
             <Carousel
-                className="casualCarousel"
+                className="carousel"
                 indicators={false}
                 cycleNavigation="true"
                 autoPlay={false}
@@ -55,7 +55,7 @@ function Casual(){
             }
             </Carousel>
             <Carousel
-                className="casualCarousel"
+                className="carousel"
                 indicators={false}
                 cycleNavigation="true"
                 autoPlay={false}
@@ -77,7 +77,7 @@ function Casual(){
             }
             </Carousel>
             <Carousel
-                className="casualCarousel"
+                className="carousel"
                 indicators={false}
                 cycleNavigation="true"
                 autoPlay={false}
@@ -99,7 +99,7 @@ function Casual(){
             }
             </Carousel>
             <Carousel
-                className="casualCarousel"
+                className="carousel"
                 indicators={false}
                 cycleNavigation="true"
                 autoPlay={false}
@@ -128,7 +128,7 @@ function Item(props)
 {
     return (
         <div>
-            <img className="casualClothes" src={Object.values(props.item)} loading="eager" title={Object.keys(props.item)} alt={Object.keys(props.item)}/>
+            <img className="clothes" src={Object.values(props.item)} loading="eager" title={Object.keys(props.item)} alt={Object.keys(props.item)}/>
         </div>
     )
 }
