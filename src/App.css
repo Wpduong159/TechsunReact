@@ -245,12 +245,12 @@ nav {
 
 /*Casual Clothing Page*/
 
-.casualCarousel {
+.carousel {
     margin: auto;
     width: 50%;
 }
 
-.casualClothes {
+.clothes {
     border-radius: 20px;
     height: 380px
 }
