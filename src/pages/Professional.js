@@ -108,7 +108,7 @@ function Item(props)
 {
     return (
         <div>
-            <img className="profssionalClothes" src={Object.values(props.item)} loading="eager" title={Object.keys(props.item)} alt={Object.keys(props.item)}/>
+            <img className="clothes" src={Object.values(props.item)} loading="eager" title={Object.keys(props.item)} alt={Object.keys(props.item)}/>
         </div>
     )
 }
