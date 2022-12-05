@@ -1,5 +1,4 @@
-# This README.md file gives a brief descripotion of all the files found withing the 
-project zip folder that is submitted.
+# This README.md file gives a brief descripotion of all the files found withing the project zip folder that is submitted.
 
 ## Techsun
 Web application that provides outfit suggestions for Techbros (Unisex Clothing Options)
