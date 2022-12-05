@@ -1,0 +1,29 @@
+{
+    "Outerwear": [
+        {"Blue Blazer": "https://drive.google.com/uc?export=view&id=1S-eFeT0GNzs4Lg4zNuVzXmfJGGYZPdWg"},
+        {"Green Cotton Corduroy Blazer": "https://drive.google.com/uc?export=view&id=1tOlnSEx4o9H4LJj234L7wRVciz6hFUWa"},   
+        {"Green Shell Blazer": "https://drive.google.com/uc?export=view&id=1XyGA0f4YdHSUVMjoyYUXUeX30OcCR-p5"},
+        {"Gray Wool Blazer": "https://drive.google.com/uc?export=view&id=1bp85fLRanIqjIQEErkz0L4x8mnXHqEBV"}
+    ],
+    "Shirts": [
+        {"Black Woven Shirt": "https://drive.google.com/uc?export=view&id=1TuEOTOfO2-bNzRxKsxjz7PW0uALD3iqY"},
+        {"Blue Cotton Poplin": "https://drive.google.com/uc?export=view&id=16AII_iTTsEquvmHhKViQ21AI7bRq6oXL"},
+        {"Navy Cotton Shirt": "https://drive.google.com/uc?export=view&id=1lo6LtWvj6BxtQvaIZ3Fu2kbGO-BiWYmK"},
+        {"White Cotton Twill Shirt": "https://drive.google.com/uc?export=view&id=1GXGR1dNBt-od1cPjopc_wJZvuJMXp1md"}
+    ],
+    "Pants": [
+        {"Black Wool Trousers": "https://drive.google.com/uc?export=view&id=1erMmf3AovEBCfG54Qa3ZVdzdH_FpNiE1"},
+        {"Green Cotton Trousers": "https://drive.google.com/uc?export=view&id=169hc84dwySEiFPpQyUgOglIZq-QVONGN"},
+        {"Gray Wool Trousers": "https://drive.google.com/uc?export=view&id=1Df2FjQD0s9P8EvfgsjyPEfG1I7zYUdrR"},
+        {"Navy Cotton Trousers": "https://drive.google.com/uc?export=view&id=1Iyvau1bW9Vv74F_uYu6wqoKzHiqC1Aup"},
+        {"Navy Wool Trousers":  "https://drive.google.com/uc?export=view&id=1j6m1GXIYD2SVPGw5Jsknj4kBj2rLIVA8"}
+    ],
+    "Shoes": [
+        {"Black Oxford Shoes": "https://drive.google.com/uc?export=view&id=1GQyjsLsUn2OGdEkCObNCtBa4W-JM7d-d"},
+        {"Brown Derby Shoes": "https://drive.google.com/uc?export=view&id=1vKo2Ee8njAia4cVHMTYq9QJTbEOW9MsU"},
+        {"Brown Oxford Shoes": "https://drive.google.com/uc?export=view&id=11D8dML2UpBm7HPkta_tlXN_05ym_NmVM"},
+        {"Gray Driving Shoes": "https://drive.google.com/uc?export=view&id=1uUCjB3cB4J2Agg6WKcqmHgJUJnw_-gey"},
+        {"Navy Driving Shoes": "https://drive.google.com/uc?export=view&id=1XwUIiJUKlgqZSjpYJWX4m3MoPdv43Od1"},
+        {"White Driving Shoes": "https://drive.google.com/uc?export=view&id=1OQ1YiYDa27T7jEQmaQuVHfqZ_ZHEI6zb"}
+    ]
+}
