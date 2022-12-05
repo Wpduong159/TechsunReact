@@ -4,7 +4,7 @@ import Carousel from "react-material-ui-carousel";
 import professionalData from '../jsons/professional.json'
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
-import Grid from '@mui/material/Grid';
+
 
 
 function Professional(){
