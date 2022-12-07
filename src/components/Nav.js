@@ -14,7 +14,7 @@ function Nav(){
 
     return(
         <nav>
-            <Link style={navStyle} to='/'>
+            <Link style={navStyle} to='/techsunreact'>
                 <Grid container direction="row" alignItems="center" justify="space-around">
                     <AlignVerticalTopIcon className="headerLogo"/>
                     <h1>Techsun Engineering</h1>
