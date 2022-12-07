@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 
 function App(){
     return(
-        <Router>
+        <Router basename="/techsunreact">
             <div className="App">
                 <CssBaseline />
 
@@ -23,7 +23,7 @@ function App(){
                 <ScrollToTop>
 
                     <Routes>
-                        <Route path="/techsunreact" element={<Home/>} />
+                        <Route path="/" element={<Home/>} />
                         <Route path="/professional" element={<Professional/>} />
                         <Route path="/casual" element={<Casual/>} />
                         <Route path="/about" element={<About/>} />
