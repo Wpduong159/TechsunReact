@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/techsunreact/static/css/main.ce3cd0eb.css",
+    "main.js": "/techsunreact/static/js/main.0053ee70.js",
+    "static/js/787.12a96c17.chunk.js": "/techsunreact/static/js/787.12a96c17.chunk.js",
+    "static/media/chicago_night.gif": "/techsunreact/static/media/chicago_night.7ddfa9e4aab3d1388ed5.gif",
+    "static/media/Skyward.jpg": "/techsunreact/static/media/Skyward.593c7e205e89001e9af6.jpg",
+    "static/media/office.jpg": "/techsunreact/static/media/office.e95b27468e0250563ca2.jpg",
+    "static/media/clothing.jpg": "/techsunreact/static/media/clothing.8a42c3a8fb2a3ee9f7de.jpg",
+    "static/media/cas_sample.jpg": "/techsunreact/static/media/cas_sample.3c08e4112aa9ca1e7873.jpg",
+    "static/media/prof_sample.jpg": "/techsunreact/static/media/prof_sample.82231169af083bb409a9.jpg",
+    "static/media/tanjiro.jpg": "/techsunreact/static/media/tanjiro.e0dd382b661475cd086d.jpg",
+    "static/media/whatif.jpg": "/techsunreact/static/media/whatif.88b439d9eda41a56dc46.jpg",
+    "index.html": "/techsunreact/index.html",
+    "main.ce3cd0eb.css.map": "/techsunreact/static/css/main.ce3cd0eb.css.map",
+    "main.0053ee70.js.map": "/techsunreact/static/js/main.0053ee70.js.map",
+    "787.12a96c17.chunk.js.map": "/techsunreact/static/js/787.12a96c17.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce3cd0eb.css",
+    "static/js/main.0053ee70.js"
+  ]
+}
