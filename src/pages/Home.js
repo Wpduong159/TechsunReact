@@ -4,11 +4,13 @@ import Grid from '@mui/material/Grid';
 import { Link } from 'react-router-dom';
 import { City, ProfSample, CasSample } from '../images/imageIndex';
 
+
 const autoResize = {
     root: {
         flexGrow: 1
     }
 };
+
 
 function Prof() {
     return (
@@ -25,6 +27,7 @@ function Prof() {
     );
 }
 
+
 function Cas() {
     return (
         <div className="promptColumn">
@@ -39,6 +42,7 @@ function Cas() {
         </div>
     );
 }
+
 
 function Home(){
     return(
@@ -64,5 +68,6 @@ function Home(){
         </div>
     );
 }
+
 
 export default Home;

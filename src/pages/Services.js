@@ -1,12 +1,8 @@
 import React from "react";
 import '../App.css';
-
 import { Office } from "../images/imageIndex";
 import Grid from '@mui/material/Grid'; // Grid version 1
 import Item from '@mui/material/ListItem';
-
-
-
 
 
 function Services(){
@@ -35,5 +31,6 @@ function Services(){
         
     );
 }
+
 
 export default Services;

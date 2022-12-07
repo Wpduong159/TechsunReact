@@ -248,9 +248,17 @@ nav {
 .carousel {
     margin: auto;
     width: 50%;
+    display: flex;
 }
 
 .clothes {
     border-radius: 20px;
-    height: 380px
+    width: 50%;
+    margin: auto;
+}
+
+/* 404 Page*/
+
+.errorPage {
+    height: 90vh;
 }

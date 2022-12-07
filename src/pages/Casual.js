@@ -5,6 +5,7 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import '../App.css';
 
+
 function Casual(){
     return(
         <div className="casualBody">
@@ -124,6 +125,7 @@ function Casual(){
     );
 }
 
+
 function Item(props)
 {
     return (
@@ -132,5 +134,6 @@ function Item(props)
         </div>
     )
 }
+
 
 export default Casual;
