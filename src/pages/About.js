@@ -13,11 +13,11 @@ function About(){
             </section>
             <section className="bottom">
             <div className="aboutUsDiscription">
-                <p>Two Cal State Fullerton Univserity Students with a vision.<br></br>
+                <p>Two Cal State Fullerton University Students with a vision.<br></br>
                 William Duong and Sebastian Reyes, attempting to create a web application<br></br>
                 that can help insipire individuals find their look for a day in the office.<br></br>
-                Whether it is business or business casual our application can make <br></br>
-                it easier for you to tackle the day!
+                Whether it is business professional or business casual, our application <br></br>
+                can make it easier for you to tackle the day!
                 </p>
             </div>
             </section>   

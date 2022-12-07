@@ -14,7 +14,7 @@ import Footer from "./components/Footer";
 
 function App(){
     return(
-        <Router>
+        <Router basename="/techsunreact">
             <div className="App">
                 <CssBaseline />
 

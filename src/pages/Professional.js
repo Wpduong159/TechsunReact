@@ -10,7 +10,7 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 function Professional(){
     return(
         <div className="professionalBody">
-            <h1>Professional Page</h1>
+            <h1>Let's style your professional look:</h1>
             <Carousel
                 className="carousel"
                 indicators={false}
