@@ -50,6 +50,11 @@ nav {
     .nav-links {
         display: none;
     }
+    
+    .carousel {
+        margin: auto;
+        min-width: 100%;
+    }
 }
 
 .footer {
@@ -248,13 +253,11 @@ nav {
 .carousel {
     margin: auto;
     width: 50%;
-    display: flex;
 }
 
 .clothes {
     border-radius: 20px;
-    width: 50%;
-    margin: auto;
+    height: 380px
 }
 
 /* 404 Page*/
